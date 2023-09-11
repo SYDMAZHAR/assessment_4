@@ -1,0 +1,10 @@
+def triple_number(x):
+    return x * 3
+
+input_list = [1, 2, 3, 4, 5, 6, 7]
+
+result = list(map(triple_number, input_list))
+
+# Display the result
+print("Triple of list numbers:")
+print(result)

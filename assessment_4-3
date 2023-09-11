@@ -1,0 +1,10 @@
+def square_number(x):
+    return x ** 2
+
+input_list = [4, 5, 2, 9]
+
+result = list(map(square_number, input_list))
+
+# Display the result
+print("Square the elements of the list:")
+print(result)
